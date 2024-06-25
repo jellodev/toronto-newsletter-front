@@ -1,17 +1,25 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
-const Header: React.FC = () => {
+function Header() {
   return (
-    <header>
-      <nav className={`navbar sticky`}>
-        <Link to="/home">Home</Link>
-        <Link to="/feed">Feed</Link>
-        <Link to="/about">About</Link>
+    <header className={`app-container-header`}>
+      <div className={'logo-wrapper'}>
+        <img src={''} alt="logo" />
+      </div>
+      <nav className={`nav`}>
+        <div className={'nav-item'}>
+          <Link to="/home">Home</Link>
+        </div>
+        <div className={'nav-item'}>
+          <Link to="/feed">Feed</Link>
+        </div>
+        <div className={'nav-item'}>
+          <Link to="/about">About</Link>
+        </div>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;

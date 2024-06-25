@@ -1,17 +1,24 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    grid-area: footer;
     background-color: var(--deep-indigo);
     color: var(--light-beige);
     text-align: center;
+    height: 230px;
+    padding: 20px 0;
 }
 
 .contact-container {
     display: flex;
     align-items: center;
+    margin-top: 12px;
     column-gap: 8px;
     justify-content: center;
-    margin-top: 12px;
+}
+
+.contact-icon {
+    filter: invert(88%) sepia(10%) saturate(328%) hue-rotate(315deg) brightness(98%) contrast(90%);
+}
+
+#copy-right-info {
+    font-size: var(--font-size-xs);
 }

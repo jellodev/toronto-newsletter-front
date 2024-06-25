@@ -7,15 +7,17 @@
     --soft-gray: #9a8c98;
     --beige: #c9ada7;
     --light-beige: #f2e9e4;
+    --font-size-xs: 10px;
 }
 
-body {
-    background-color: var(--charcoal);
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+#app-container-wrapper {
     display: flex;
-    place-items: center;
-    min-width: 320px;
+    flex-direction: column;
     min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
+#app-container-main {
+    flex: 1;
+    background-color: var(--light-beige);
+}

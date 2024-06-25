@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      <p>© 2020 All rights reserved</p>
+      <p id={'copy-right-info'}>© 2020 All rights reserved</p>
     </footer>
   );
 };

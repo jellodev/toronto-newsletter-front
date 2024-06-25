@@ -5,9 +5,9 @@ import Footer from './components/Footer/Footer.tsx';
 
 function App() {
   return (
-    <div className={'co'}>
+    <div id={'app-container-wrapper'}>
       <Header />
-      <main>
+      <main id={'app-container-main'}>
         <Outlet />
       </main>
       <Footer />
