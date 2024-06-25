@@ -1,0 +1,17 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--deep-indigo);
+    color: var(--light-beige);
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+    margin-top: 12px;
+}

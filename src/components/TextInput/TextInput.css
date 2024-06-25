@@ -1,0 +1,21 @@
+input, .text-input {
+    width: 250px;
+    max-width: 100%;
+    font: inherit;
+    color: inherit;
+    line-height: 120%;
+    padding: 0.75em;
+    border: 1px solid;
+    border-radius: 0.35em;
+    accent-color: var(--deep-indigo);
+
+    &:hover,
+    &:active {
+        border-color: var(--charcoal);
+    }
+
+    &:focus {
+        outline: 0;
+        border-color: var(--deep-indigo);
+    }
+}

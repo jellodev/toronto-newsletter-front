@@ -1,0 +1,21 @@
+@import url('./assets/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --deep-indigo: #22223b;
+    --charcoal: #4a4e69;
+    --soft-gray: #9a8c98;
+    --beige: #c9ada7;
+    --light-beige: #f2e9e4;
+}
+
+body {
+    background-color: var(--charcoal);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
